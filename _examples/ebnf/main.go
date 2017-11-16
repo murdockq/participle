@@ -7,7 +7,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/alecthomas/participle"
+	"github.com/murdockq/participle"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

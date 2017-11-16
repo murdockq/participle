@@ -7,7 +7,7 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	"github.com/alecthomas/participle/lexer"
+	"github.com/murdockq/participle/lexer"
 )
 
 func TestStructLexerTokens(t *testing.T) {

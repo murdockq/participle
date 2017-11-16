@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 
-	"github.com/alecthomas/participle"
-	"github.com/alecthomas/participle/lexer"
+	"github.com/murdockq/participle"
+	"github.com/murdockq/participle/lexer"
 	"github.com/alecthomas/repr"
 )
 

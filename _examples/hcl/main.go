@@ -9,7 +9,7 @@ import (
 
 	"github.com/alecthomas/repr"
 
-	"github.com/alecthomas/participle"
+	"github.com/murdockq/participle"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
 

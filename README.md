@@ -1,6 +1,6 @@
 # A dead simple parser package for Go
 
-[![](https://godoc.org/github.com/alecthomas/participle?status.svg)](http://godoc.org/github.com/alecthomas/participle) [![Build Status](https://travis-ci.org/alecthomas/participle.svg?branch=master)](https://travis-ci.org/alecthomas/participle) [![Go Report Card](https://goreportcard.com/badge/github.com/alecthomas/participle)](https://goreportcard.com/report/github.com/alecthomas/participle) [![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)
+[![](https://godoc.org/github.com/murdockq/participle?status.svg)](http://godoc.org/github.com/murdockq/participle) [![Build Status](https://travis-ci.org/murdockq/participle.svg?branch=master)](https://travis-ci.org/murdockq/participle) [![Go Report Card](https://goreportcard.com/badge/github.com/murdockq/participle)](https://goreportcard.com/report/github.com/murdockq/participle) [![Gitter chat](https://badges.gitter.im/alecthomas.png)](https://gitter.im/alecthomas/Lobby)
 
 <!-- MarkdownTOC -->
 
@@ -126,8 +126,8 @@ but only allows tokens provided by that package. Next fastest is the regexp
 lexer (`lexer.Regexp()`). The slowest is currently the EBNF based lexer, but it has a large potential for optimisation through code generation.
 
 To use your own Lexer you will need to implement two interfaces:
-[Definition](https://godoc.org/github.com/alecthomas/participle/lexer#Definition)
-and [Lexer](https://godoc.org/github.com/alecthomas/participle/lexer#Lexer).
+[Definition](https://godoc.org/github.com/murdockq/participle/lexer#Definition)
+and [Lexer](https://godoc.org/github.com/murdockq/participle/lexer#Lexer).
 
 ## Example
 
@@ -143,7 +143,7 @@ import (
   "fmt"
   "os"
 
-  "github.com/alecthomas/participle"
+  "github.com/murdockq/participle"
 )
 
 type Group struct {

@@ -3,7 +3,7 @@ package participle
 import (
 	"reflect"
 
-	"github.com/alecthomas/participle/lexer"
+	"github.com/murdockq/participle/lexer"
 )
 
 // A structLexer lexes over the tags of struct fields while tracking the current field.

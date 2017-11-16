@@ -6,7 +6,7 @@ import (
 
 	"github.com/stretchr/testify/require"
 
-	"github.com/alecthomas/participle/lexer"
+	"github.com/murdockq/participle/lexer"
 )
 
 func TestProductionReference(t *testing.T) {

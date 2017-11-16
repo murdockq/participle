@@ -10,7 +10,7 @@ import (
 	"strings"
 	"text/scanner"
 
-	"github.com/alecthomas/participle/lexer"
+	"github.com/murdockq/participle/lexer"
 )
 
 var (

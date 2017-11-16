@@ -7,7 +7,7 @@ import (
 	"github.com/alecthomas/go-thrift/parser"
 	"github.com/stretchr/testify/require"
 
-	"github.com/alecthomas/participle"
+	"github.com/murdockq/participle"
 )
 
 var (
